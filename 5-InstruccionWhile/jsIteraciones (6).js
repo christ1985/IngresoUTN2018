@@ -9,7 +9,8 @@ acumulador = parseInt(acumulador);
 	while(contador < 5)	
 	{
 		
-		document.getElementById("FormIngreso").value=acumulador;
+		//document.getElementById("FormIngreso").value=acumulador;
+		//ingreso = parseInt(prompt("Ingrese un numero: "));
 		ingreso = prompt("ingrese el numero a sumar");
 		ingreso = parseInt(ingreso);
 		acumulador = acumulador + ingreso;
